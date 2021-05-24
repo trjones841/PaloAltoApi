@@ -17,7 +17,7 @@ DEBUG = True
 
 ip = '10.40.1.101'
 user = 'admin'
-passwd = 'Iam!g0ing'
+passwd = 'password'
 
 # Global variable call for api_key
 api_key = login_to_panfw(ip, user, passwd)
