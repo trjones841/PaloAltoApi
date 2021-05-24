@@ -37,7 +37,7 @@ def prisma_managed_retrieve_ips(url, api_key, path, method, payload):
 if __name__ == '__main__':
 
     url = 'api.lab.gpcloudservice.com'
-    api_key = 'adypiixf09__ww2vsY9lLSrebVihF6ym6xGcwI8vZmP5VDGwciR1'
+    api_key = 'api-key'
     path = 'getPrismaAccessIP/v2'
     method = 'POST'
     payload = '{"serviceType": "all", "addrType": "all","location": "all"}'
