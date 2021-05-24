@@ -41,9 +41,7 @@ def login_to_panfw(ipaddr, username, passwd):
 
 
 if __name__ == '__main__':
-
-    #username = 'automation'
-    #passwd = 'automation1!'
+    
     username = 'admin'
     passwd = 'password'
     PANFW01 = '10.40.1.101'  # v10.0
