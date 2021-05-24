@@ -45,7 +45,7 @@ if __name__ == '__main__':
     #username = 'automation'
     #passwd = 'automation1!'
     username = 'admin'
-    passwd = 'Iam!g0ing'
+    passwd = 'password'
     PANFW01 = '10.40.1.101'  # v10.0
     PANFW02 = '10.40.1.102'  #v11.1
     auth_token = login_to_panfw(PANFW01, username, passwd)
