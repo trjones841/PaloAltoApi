@@ -1,7 +1,7 @@
 '''
 Python script
 
-This script was written to authenticate to a Citrix ADC using Nitro v1
+This script was written to authenticate to a Palo Alto Networks Panorama management platform. 
 
 Author: TJones
 Date: 9MAY2021
@@ -14,7 +14,7 @@ https://live.paloaltonetworks.com/t5/automation-api-discussions/how-to-retreive-
 
 from panos.panorama import Panorama
 
-pano = Panorama("192.168.0.110", "admin", "admin")
+pano = Panorama($ip, $login, $password)
 pano.predefined.refreshall_applications()
 
 print("Applications: {0}".format(
